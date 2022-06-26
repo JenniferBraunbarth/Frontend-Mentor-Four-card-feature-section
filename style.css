@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* mobile ---------------------- */
+
+@media only screen and (max-width: 1299px) {
+    header {
+        text-align: center;
+        padding: 0 15px;
+        margin-bottom: 50px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+        color: hsl(234, 12%, 34%);
+        padding-bottom: 15px;
+    }
+    header span {
+        font-weight: lighter;
+    }
+    p {
+        color: hsl(229, 6%, 66%);
+    }
+    h2 {
+        font-size: 1.25rem;
+        color: hsl(234, 12%, 34%);
+    }
+    article {
+        max-width: 350px;
+        height: 225px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0px 10px 15px 5px hsl(240, 9%, 90%);
+        margin: 0 15px 30px 15px;
+        padding: 20px;
+    }
+    article p {
+        font-size: 0.9rem;
+    }
+    img {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+    .all {
+        max-width: 350px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    .cyan {
+        border-top: 5px solid hsl(180, 62%, 55%);
+        transform: translate(0px, 0px);
+        transition: ease;
+    }
+    .red {
+        border-top: 5px solid hsl(0, 78%, 62%);
+    }
+    .orange {
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+    .blue {
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+
+/* desktop --------------------- */
+
+@media only screen and (min-width: 1300px) {
+    header {
+        text-align: center;
+        padding: 0 15px;
+        max-width: 600px;
+        margin-left: 410px;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        color: hsl(234, 12%, 34%);
+        padding-bottom: 15px;
+    }
+    header span {
+        font-weight: lighter;
+    }
+    p {
+        color: hsl(229, 6%, 66%);
+    }
+    h2 {
+        font-size: 1.25rem;
+        color: hsl(234, 12%, 34%);
+    }
+    article {
+        max-width: 350px;
+        height: 225px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0px 10px 15px 5px hsl(240, 9%, 90%);
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    article p {
+        font-size: 0.9rem;
+    }
+    img {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+    .all {
+        max-width: 1250px;
+        padding-top: 100px;
+    }
+    .cyan {
+        border-top: 5px solid hsl(180, 62%, 55%);
+        transform: translate(150px, 270px);
+    }
+    .red {
+        border-top: 5px solid hsl(0, 78%, 62%);
+        transform: translate(550px, -150px);
+    }
+    .orange {
+        border-top: 5px solid hsl(34, 97%, 64%);
+        transform: translate(550px, -150px);
+    }
+    .blue {
+        border-top: 5px solid hsl(212, 86%, 64%);
+        transform: translate(950px, -500px);
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: -300px;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
